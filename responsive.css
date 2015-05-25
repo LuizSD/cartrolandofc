@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 28px !important;
+  }
+  .jumbotron p {
+    font-size: 16px !important;
+  }
+  .team_escudo {
+    height: 90px;
+  }
+  .team_escudo, .team_nome {
+    width: 100%;
+    float: initial;
+    text-align: center;
+  }
+  .team_escudo img {
+    margin: 0 auto;
+    display: block;
+  }
+  .team_nome h1 {
+    font-size: 28px;
+  }
+  .team_rodata_pontuacao {
+    width: 100%;
+    margin: 20px 0 20px;
+  }
+  .team_rodata_pontuacao .team_rodada {
+    text-align: center;
+  }
+  .team_rodata_pontuacao .team_pontuacao {
+    overflow: hidden;
+    text-align: center;
+  }
+  .team_rodata_pontuacao .team_pontuacao .pontos-label {
+    float: none;
+  }
+  .team_rodata_pontuacao .team_pontuacao .pontuacao-label {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+  .table-responsive {
+    border: none !important;
+    margin-top: 20px !important;
+  }
+  .team_escalacao td {
+    padding: 4px 8px;
+  }
+  #result {
+    padding: 0;
+  }
+}
