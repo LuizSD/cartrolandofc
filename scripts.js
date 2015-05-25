@@ -53,14 +53,16 @@ $(document).ready(function() {
 					$loading.hide();
 					$btn_search.button("reset");
 					return false;
+
 				} else if (data.total > 1) {
 					has_pagination = true;
 				}
 
-				console.log(Math.ceil(pages));
-				console.log(data.total);
-				console.log(has_pagination);
-				return false;
+				// TODO: Criar lista dos times retornados
+				// console.log(Math.ceil(pages));
+				// console.log(data.total);
+				// console.log(has_pagination);
+				// return false;
 
         var request = data.times[0],
             team_slug = request.slug;
