@@ -6,7 +6,7 @@
     font-size: 16px !important;
   }
   .team_escudo {
-    height: 90px;
+    /*height: 90px;*/
   }
   .team_escudo, .team_nome {
     width: 100%;
@@ -18,7 +18,7 @@
     display: block;
   }
   .team_nome h1 {
-    font-size: 28px;
+    font-size: 1.9em;
   }
   .team_rodata_pontuacao {
     width: 100%;
@@ -44,9 +44,30 @@
     margin-top: 20px !important;
   }
   .team_escalacao td {
-    padding: 4px 8px;
+    padding: 10px 8px !important;
+    font-size: 0.95em;
   }
   #result {
     padding: 0;
+  }
+  #teams_list li {
+    padding: 10px;
+  }
+  #teams_list .nome {
+    font-size: 1.1em;
+    padding-left: 16px;
+  }
+  #teams_list .cartola {
+    font-size: 1em;
+    float: left;
+    text-align: left;
+    clear: left;
+    display: inline;
+    margin-left: 48px;
+    margin-top: -12px;
+  }
+  .header, .result, .footer {
+    padding-right: 0;
+    padding-left: 0;
   }
 }

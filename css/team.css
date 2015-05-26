@@ -7,6 +7,48 @@
   display: none;
 }
 
+#teams_list {
+  display: none;
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+  overflow-y: scroll;
+  height: 160px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-top: -18px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#teams_list ul {
+  list-style: none;
+  padding: 0;
+}
+#teams_list li {
+  padding: 10px 20px;
+  border-bottom: 1px dotted #ccc;
+  display: block;
+  overflow: hidden;
+}
+#teams_list li:hover {
+  background: #F9F9F9;
+  cursor: pointer;
+}
+#teams_list .escudo {
+  float: left;
+}
+#teams_list .nome {
+  float: left;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-top: 2px;
+}
+#teams_list .cartola {
+  float: right;
+  font-style: italic;
+  color: #999;
+  padding-top: 5px;
+}
+
 input.team {
   padding: 24px 20px !important;
   font-size: 24px !important;
@@ -25,16 +67,19 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:act
   max-height: 130px;
 }
 .team_escudo img {
-  top: -14px;
+  top: -20px;
   position: relative;
 }
 
 .team_nome {
   float: left;
 }
+.team_nome h1 {
+  font-size: 28px;
+}
 .team_nome h3 {
   margin: -8px 0 0 0;
-  font-size: 18px;
+  font-size: 16px;
   color: #777;
 }
 
@@ -69,11 +114,15 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:act
   margin: 0 auto;
 }
 .team_escalacao table {
-  width: auto !important;
+  width: 100% !important;
   margin: 0 auto !important;
 }
 .team_escalacao td {
-  padding: 4px 18px;
+  padding: 8px 18px !important;
+  border-top: 1px dotted #ddd !important;
+  vertical-align: initial !important;
+  line-height: initial !important;
+  white-space: normal !important;
 }
 .athletic_pontos {
   color: #3ea909;
