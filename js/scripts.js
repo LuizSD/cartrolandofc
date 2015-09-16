@@ -170,7 +170,7 @@ $(document).ready(function() {
         $team_pontuacao.html("<span class='pontos-label'>"+ team_pontuacao + "</span> <span class='pontuacao-label'>Pontos parciais</span>");
 
         $.each(athletics, function(inc, data) {
-          var athletic_escudo = (data.clube.escudo_pequeno == "" ? "---" : data.clube.escudo_pequeno),
+          var athletic_escudo = (data.clube.escudo_pequeno == null ? "" : data.clube.escudo_pequeno),
               athletic_posicao = (data.posicao.abreviacao == "" ? "---" : data.posicao.abreviacao),
               athletic_nome = (data.apelido == "" ? "---" : data.apelido.toUpperCase()),
               athletic_pontos = (data.pontos == "" ? "---" : data.pontos);
