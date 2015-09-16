@@ -1,11 +1,10 @@
-
 $(document).ready(function() {
 
   function searchTeam() {
     var $team_input = $("#team"),
         team = decodeURI($team_input.val()).toLowerCase();
     
-    if (team == "") {
+    if (team === "") {
       alert("Digite o nome do seu time para consultar!");
       $team_input.focus();
       return false;
@@ -26,6 +25,7 @@ $(document).ready(function() {
       },
       success: function(data) {
         var teams_total = data.total;
+
         if (teams_total == 0) {
           alert("O time que você digitou não foi encontrado, verifique se o nome está correto!");
           $team_input.focus();
@@ -145,7 +145,7 @@ $(document).ready(function() {
         loading("show");
       },
       success: function(data) {
-        if (typeof data.errors != "undefined") {
+        if (typeof data.errors !== "undefined") {
           alert(data.errors.error.message);
           $team_input.focus();
           loading("hide");
