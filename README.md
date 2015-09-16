@@ -10,7 +10,6 @@ http://cartrolandofc.url.ph
 ![](https://raw.github.com/wgenial/cartrolandofc/master/images/site/screen3.png)
 
 ### ToDo
-- Criar paginação na consulta de times.
 - Consutar os pontos parciais das rodadas anteriores.
 
 ### CartolaFC API
