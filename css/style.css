@@ -91,3 +91,10 @@ body {
     border-bottom: 0;
   }
 }
+
+.forkmegithub {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}

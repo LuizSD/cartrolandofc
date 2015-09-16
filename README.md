@@ -15,4 +15,4 @@ http://cartrolandofc.url.ph
 
 [https://github.com/wgenial/cartrolandofc/wiki/CartolaFC-API](https://github.com/wgenial/cartrolandofc/wiki/CartolaFC-API)
 
-Se você quiser conbribuir com melhorias é só fazer um fork do projeto e enviar um pull request.
+Se você quiser contribuir com melhorias é só fazer um fork do projeto e enviar um pull request.

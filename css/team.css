@@ -12,24 +12,24 @@
   border: 1px solid #ccc;
   background-color: #fdfdfd;
   overflow-y: scroll;
-  height: 160px;
+  height: 190px;
   border-radius: 4px;
   margin-bottom: 15px;
   margin-top: -18px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-#teams_list ul {
+#teams_list ul.teams {
   list-style: none;
   padding: 0;
 }
-#teams_list li {
+#teams_list .teams li {
   padding: 10px 20px;
   border-bottom: 1px dotted #ccc;
   display: block;
   overflow: hidden;
 }
-#teams_list li:hover {
+#teams_list .teams li:hover {
   background: #F9F9F9;
   cursor: pointer;
 }
